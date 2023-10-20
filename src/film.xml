@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cinema>
+  <film id="lb78" type="comedie">
+    <titre>les bronzes</titre>
+    <annee>1978</annee>
+    <realisateur>practice leconte</realisateur>
+    <role><nom>popaye</nom><acteur>thierry lhermite</acteur></role>
+    <role><nom>jean-claude dusse</nom><acteur>michel blanc</acteur></role>
+  </film>
+  
+  <film id="gf94" type="comedie">
+    <titre>grosse fatigue</titre>
+    <annee>1994</annee>
+    <realisateur>michel blanc</realisateur>
+    <role><nom>patrick olivier</nom><acteur>michel blanc</acteur></role>
+    <role><nom>carole bouquet</nom><acteur>carole bouquet</acteur></role>
+  </film>
+  
+  <producteur>
+    <nom>daniel toscan du plantier</nom>
+    <film ref='gf94'/>
+  </producteur>
+  
+  
+  <producteur>
+    <nom>yves rousset-rouard</nom>
+    <film ref='lb78'/>
+  </producteur>
+</cinema>
